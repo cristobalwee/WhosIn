@@ -1,0 +1,4 @@
+/*This is the file to which user data will be written*/
+/*The number of lines in this file MUST, on initialization, match the number of users*/
+/*The default number of users is 4*/
+/*Exercise caution when editing this file*/
