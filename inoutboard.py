@@ -1,4 +1,4 @@
-###### Sourced from https://raw.github.com/paulbarber/raspi-gpio/master/inoutboard.py ######
+###### Sourced in part from https://raw.github.com/paulbarber/raspi-gpio/master/inoutboard.py ######
 
 #!/usr/bin/python
 
