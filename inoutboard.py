@@ -21,13 +21,13 @@ while True:
             trueTime = "%d:%dam" %(now.hour - 16, now.minute)
     print trueTime
     status = "IN/OUT"
-    users = ["Cristobal", "Bertha", "Marcelo", "Greg"]
+    users = ["user1", "user2", "user3", "user4"]
     userCount = len(users)
 
     data = [""] * userCount
     status = [""] * userCount
     times = [""] * userCount
-    bids = ['D4:F4:6F:32:B0:AF', 'C8:69:CD:6A:D2:21', '78:7E:61:51:32:2B', 'C9:69:CD:6A:D2:21']
+    bids = ['D4:F4:7F:32:B0:AF', 'C8:69:CD:6A:F2:21', '78:7E:61:52:32:2B', 'C9:69:CD:6A:D2:21']
 
     for i in range(0, userCount):
         print "Looking for " + users[i] + "..."
