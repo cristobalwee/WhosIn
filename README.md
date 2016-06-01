@@ -17,4 +17,4 @@ For the Pi:
 For the app:
 ![alt tag](https://cloud.githubusercontent.com/assets/8813763/15724280/63a46514-2814-11e6-9043-bb5709338e30.png)
 ![alt tag](https://cloud.githubusercontent.com/assets/8813763/15724294/6b2f45b0-2814-11e6-93f8-199d4e561f5f.png)
-![alt tag](https://cloud.githubusercontent.com/assets/8813763/15724297/700c2666-2814-11e6-9e2c-d78f73b01d0a.png)
+![alt tag](https://cloud.githubusercontent.com/assets/8813763/15724502/4ef7b87c-2815-11e6-9842-8083de518399.png)
