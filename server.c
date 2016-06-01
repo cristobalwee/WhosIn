@@ -1,7 +1,6 @@
 /*
     C socket server example, handles multiple clients using threads
-    Compile
-    gcc server.c -lpthread -o server
+    Compile: gcc server.c -lpthread -o server
 */
 
 #include <stdio.h>
@@ -13,9 +12,6 @@
 #include <pthread.h>
 #include <signal.h>
 #include <time.h>
-#include <bluetooth/bluetooth.h>
-#include <bluetooth/hci.h>
-#include <bluetooth/hci_lib.h>
 
 void *connection_handler(void *);
 
