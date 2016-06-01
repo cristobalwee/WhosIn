@@ -4,6 +4,7 @@ These are the instructions to set up your raspberry pi in order to work with the
 I HIGHLY recommend setting up port forwarding on your router and a dynamic dns and hostname for your pi in order to actually be able to use the app to its full potential (otherwise you'd only be able to use it if you're on the same network as your pi, which, let's face it, is pretty useless). To set it up just follow the instructions over at https://pimylifeup.com/raspberry-pi-port-forwarding/.
 
 For the Pi:
+
 1. From your pi's terminal (ssh or monitor), type git clone https://github.com/cristobalwee/WhosIn
 2. Go to the WhosIn folder by typing cd WhosIn
 3. If you are planning on using the app with 4 devices, skip this step. Otherwise, edit the data.txt file to have the same number of lines as you do user devices; i.e. if you want to track whether 3 user devices are in the house, delete one of the lines in data.txt to have a total of 3 lines
@@ -15,6 +16,6 @@ For the Pi:
 9. Now, download the app on your phone, input your pi's hostname and port, and enjoy (check out the app instructions below).
 
 For the app:
-![alt tag](https://cloud.githubusercontent.com/assets/8813763/15724280/63a46514-2814-11e6-9043-bb5709338e30.png)
-![alt tag](https://cloud.githubusercontent.com/assets/8813763/15724294/6b2f45b0-2814-11e6-93f8-199d4e561f5f.png)
-![alt tag](https://cloud.githubusercontent.com/assets/8813763/15724852/fc95d440-2816-11e6-9c0a-4dd650e06cae.png)
+![Setup](https://cloud.githubusercontent.com/assets/8813763/15724280/63a46514-2814-11e6-9043-bb5709338e30.png)
+![Manage](https://cloud.githubusercontent.com/assets/8813763/15724294/6b2f45b0-2814-11e6-93f8-199d4e561f5f.png)
+![Home](https://cloud.githubusercontent.com/assets/8813763/15724852/fc95d440-2816-11e6-9c0a-4dd650e06cae.png)
