@@ -17,7 +17,7 @@ For the Pi:
 8. At this point, in order to start the server and bluetooth board processes, I recommend having two terminals open and running the following commands from the first terminal: gcc server.c -o server -lpthread and ./server, and from the second: python inoutboard.py. I've also included short bash scripts to start and end the respective processes, but I'm quite new to scripting so I wouldn't recommend using these (but feel free to edit them). If you do, simply run bash startall.sh to start and bash endall.sh to finish; but be cautious: the first script runs the server in the background, so there's a possibility, however slight, that it won't be so easy to kill the process.
 9. Now, download the app on your phone, input your pi's hostname and port, and enjoy (check out the app instructions below).
 
-For non-Pi/non-linux computers: (replace these steps for 6-7 above)
+For non-Pi/non-linux computers: (do the same as above but replace these steps for 6-7)
 
 1. Install pip from https://packaging.python.org/en/latest/installing/ and pybluez from https://github.com/karulis/pybluez
 2. Run bluetoothscanner.py with 'python bluetoothscanner.py' from your computer's terminal (NOTE: your devices have to be in discoverable mode for them to be found by the scanner, i.e. on an iPhone, simply go to the bluetooth tab in settings and your phone will become discoverable).
