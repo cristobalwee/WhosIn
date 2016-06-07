@@ -17,18 +17,15 @@ def worker(num):
     #logging.debug(users[i])
     print "Looking for " + users[i] + "..."
     result = bluetooth.lookup_name(bids[i], timeout = 2)
-    now = datetime.datetime.now()
-    if now.hour > 12:
-        if now.minute < 10:
-            trueTime = "%d:0%dpm" %(now.hour, now.minute)
-        else:
-            trueTime = "%d:%dpm" %(now.hour, now.minute)
+    localTime = time.strftime("%I:%M", time.localtime())
+    ampm = time.strftime("%p", time.localtime()).lower()
+    ret = ''
+    if localTime[0] == '0':
+        splitTime = localTime.split('0', 1)
+        ret = splitTime[1] + ampm
     else:
-        if now.minute < 10:
-            trueTime = "%d:0%dam" %(now.hour, now.minute)
-        else:
-            trueTime = "%d:%dam" %(now.hour, now.minute)
-    times[i] = trueTime
+        ret = localTime + ampm
+    times[i] = ret
     if result != None:
         status[i] = "IN"
     else:
@@ -49,18 +46,15 @@ bids = ['D4:F4:6F:32:B0:AF', 'C8:69:CD:6A:F2:21', '78:7E:61:52:32:2B', 'C9:69:CD
 
 while True:
     print "Checking " + time.strftime("%a, %d %b %Y %H:%M:%S", time.gmtime())
-    now = datetime.datetime.now()
-    if now.hour > 12:
-        if now.minute < 10:
-            trueTime = "%d:0%dpm" %(now.hour, now.minute)
-        else:
-            trueTime = "%d:%dpm" %(now.hour, now.minute)
+    localTime = time.strftime("%I:%M", time.localtime())
+    ampm = time.strftime("%p", time.localtime()).lower()
+    ret = ''
+    if localTime[0] == '0':
+        splitTime = localTime.split('0', 1)
+        ret = splitTime[1] + ampm
     else:
-        if now.minute < 10:
-            trueTime = "%d:0%dam" %(now.hour, now.minute)
-        else:
-            trueTime = "%d:%dam" %(now.hour, now.minute)
-    #print trueTime
+        ret = localTime + ampm
+    #print ret
 
     threads = []
     for i in range(userCount):
