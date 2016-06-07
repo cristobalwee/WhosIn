@@ -20,7 +20,7 @@ For the Pi:
 For non-Pi/non-linux computers: (replace these steps for 6-7 above)
 
 1. Install pip from https://packaging.python.org/en/latest/installing/ and pybluez from https://github.com/karulis/pybluez
-2. Run bluetoothscan.py with 'python bluetoothscan.py' from your computer's terminal (NOTE: your devices have to be in discoverable mode for them to be found by the scanner, i.e. on an iPhone, simply go to the bluetooth tab in settings and your phone will become discoverable).
+2. Run bluetoothscanner.py with 'python bluetoothscanner.py' from your computer's terminal (NOTE: your devices have to be in discoverable mode for them to be found by the scanner, i.e. on an iPhone, simply go to the bluetooth tab in settings and your phone will become discoverable).
 
 For the app:
 ![Setup](https://cloud.githubusercontent.com/assets/8813763/15724280/63a46514-2814-11e6-9043-bb5709338e30.png)
