@@ -1,7 +1,7 @@
 # WhosIn
-********************** NOTE: while it isn't strictly necessary to have a Raspberry Pi for this to work, you must have a bluetooth enabled computer that can act as a server - I just use a pi because they're easier to work with. **********************
-
 These are the instructions to set up your raspberry pi in order to work with the Who's In? app on your iPhone. 
+
+*** NOTE: while it isn't strictly necessary to have a Raspberry Pi for this to work, you must have a bluetooth enabled computer that can act as a server - I just use a pi because they're easier to work with. ***
 
 I HIGHLY recommend setting up port forwarding on your router and a dynamic dns and hostname for your pi in order to actually be able to use the app to its full potential (otherwise you'd only be able to use it if you're on the same network as your pi, which, let's face it, is pretty useless). To set it up just follow the instructions over at https://pimylifeup.com/raspberry-pi-port-forwarding/.
 
