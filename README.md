@@ -1,5 +1,5 @@
 # WhosIn
-************* NOTE: while it isn't strictly necessary to have a Raspberry Pi for this to work, you must have a bluetooth enabled computer that can act as a server - I just use a pi because they're easier to work with. ***********************
+********************** NOTE: while it isn't strictly necessary to have a Raspberry Pi for this to work, you must have a bluetooth enabled computer that can act as a server - I just use a pi because they're easier to work with. **********************
 
 These are the instructions to set up your raspberry pi in order to work with the Who's In? app on your iPhone. 
 
