@@ -1,5 +1,5 @@
 # WhosIn
-These are the instructions to set up your raspberry pi in order to work with the Who's In? app on your iPhone. 
+These are the instructions to set up your raspberry pi in order to work with the Who's In? app on your iPhone. Contributions are more than welcome! (i.e. if you know anything about parallel programming in python don't hesitate to try to make this more efficient, it has its flaws)
 
 *** NOTE: while it isn't strictly necessary to have a Raspberry Pi for this to work, you must have a bluetooth enabled computer that can act as a server - I just use a pi because they're easier to work with. ***
 
